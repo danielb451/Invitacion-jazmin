@@ -1,0 +1,5 @@
+Coloca aquí tu canción y nómbrala exactamente:
+
+musica.mp3
+
+El botón de música de la invitación la reproducirá y pausará.

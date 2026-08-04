@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2F4156" />
+  <meta name="description" content="Invitación digital para mis XV años" />
+  <title>Mis XV Años | Invitación</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="page-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <div class="floating-actions">
+    <button class="round-button" id="musicButton" type="button" aria-label="Reproducir música" title="Música">
+      <span class="icon icon-music">♪</span>
+      <span class="pulse-ring"></span>
+    </button>
+    <button class="round-button" id="menuButton" type="button" aria-label="Abrir menú" title="Menú">
+      <span class="menu-lines"><i></i><i></i><i></i></span>
+    </button>
+  </div>
+
+  <nav class="side-menu" id="sideMenu" aria-hidden="true">
+    <button class="menu-close" id="menuClose" type="button" aria-label="Cerrar menú">×</button>
+    <p class="eyebrow">NAVEGACIÓN</p>
+    <a href="#inicio">Inicio</a>
+    <a href="#eventos">Ceremonia y recepción</a>
+    <a href="#galeria">Galería</a>
+    <a href="#itinerario">Itinerario</a>
+    <a href="#vestimenta">Vestimenta</a>
+    <a href="#regalos">Regalos</a>
+    <a href="#confirmacion">Confirmación</a>
+  </nav>
+  <div class="menu-backdrop" id="menuBackdrop"></div>
+
+  <audio id="bgMusic" loop preload="none">
+    <source src="audio/musica.mp3" type="audio/mpeg" />
+  </audio>
+
+  <main class="invitation-shell">
+    <section class="hero section" id="inicio">
+      <div class="hero-image photo-frame">
+        <img src="img/portada.jpg" alt="Fotografía principal de la quinceañera" />
+        <div class="image-overlay"></div>
+      </div>
+
+      <div class="hero-flower hero-flower-left" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="hero-flower hero-flower-right" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-kicker reveal">UNA NOCHE PARA RECORDAR</p>
+        <div class="ornament reveal"><i></i><span>✦</span><i></i></div>
+        <h1 class="reveal">Mis <em>XV</em> Años</h1>
+        <p class="hero-name script reveal" data-field="nombre">Valentina</p>
+        <p class="hero-date reveal" data-field="fechaLarga">SÁBADO · 14 DE NOVIEMBRE · 2026</p>
+        <a class="hero-scroll reveal" href="#bienvenida" aria-label="Continuar">
+          <span>DESCUBRE LA INVITACIÓN</span>
+          <b>⌄</b>
+        </a>
+      </div>
+    </section>
+
+    <section class="welcome section textured" id="bienvenida">
+      <div class="flower-corner flower-top-left" aria-hidden="true"></div>
+      <div class="flower-corner flower-bottom-right" aria-hidden="true"></div>
+
+      <div class="section-inner narrow">
+        <p class="eyebrow reveal">CON EL CORAZÓN LLENO DE ALEGRÍA</p>
+        <h2 class="script title-script reveal">Quiero compartir contigo</h2>
+        <p class="lead reveal">
+          Hay momentos que soñamos durante toda la vida. Mi familia y yo deseamos que seas parte
+          de este capítulo tan especial, celebrando juntos una noche llena de luz, música y recuerdos.
+        </p>
+
+        <div class="signature-block reveal">
+          <span>Con el cariño de mis padres</span>
+          <strong data-field="padres">Mariana López &amp; Gabriel Flores</strong>
+        </div>
+
+        <div class="crown-mark reveal" aria-hidden="true">
+          <span>♕</span>
+        </div>
+
+        <p class="celebrate-text reveal">A FESTEJAR MIS</p>
+        <div class="xv-mark reveal">XV</div>
+        <p class="years reveal">AÑOS</p>
+      </div>
+    </section>
+
+    <section class="feature-photo section photo-frame">
+      <img src="img/foto-1.jpg" alt="Retrato de la quinceañera" />
+      <div class="image-overlay soft"></div>
+      <div class="feature-caption reveal">
+        <span>Una historia nueva comienza</span>
+        <strong class="script" data-field="nombre">Valentina</strong>
+      </div>
+    </section>
+
+    <section class="events section textured" id="eventos">
+      <div class="section-inner">
+        <p class="eyebrow reveal">LOS MOMENTOS DE LA NOCHE</p>
+        <h2 class="script title-script reveal">Ceremonia &amp; Recepción</h2>
+
+        <div class="event-grid">
+          <article class="event-card reveal">
+            <div class="event-icon" aria-hidden="true">⌂</div>
+            <p class="event-label">MISA DE AGRADECIMIENTO</p>
+            <h3 data-field="horaMisa">18:00</h3>
+            <p class="event-location" data-field="lugarMisa">Parroquia Sagrado Corazón</p>
+            <p class="event-address" data-field="direccionMisa">Av. Principal, Cochabamba</p>
+            <button class="button outline map-button" type="button" data-map="misa">
+              VER UBICACIÓN
+            </button>
+          </article>
+
+          <div class="event-separator" aria-hidden="true">
+            <span></span><b>✦</b><span></span>
+          </div>
+
+          <article class="event-card reveal">
+            <div class="event-icon" aria-hidden="true">♢</div>
+            <p class="event-label">RECEPCIÓN</p>
+            <h3 data-field="horaRecepcion">20:00</h3>
+            <p class="event-location" data-field="lugarRecepcion">Salón Jardines del Lago</p>
+            <p class="event-address" data-field="direccionRecepcion">Zona Norte, Cochabamba</p>
+            <button class="button primary map-button" type="button" data-map="recepcion">
+              VER UBICACIÓN
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="galeria">
+      <div class="gallery-heading">
+        <p class="eyebrow reveal">RECUERDOS QUE FLORECEN</p>
+        <h2 class="script title-script reveal">Mi galería</h2>
+      </div>
+
+      <div class="carousel reveal" aria-label="Galería de fotografías">
+        <div class="carousel-track" id="carouselTrack">
+          <figure class="carousel-slide active">
+            <img src="img/foto-2.jpg" alt="Fotografía de la quinceañera 1" />
+          </figure>
+          <figure class="carousel-slide">
+            <img src="img/foto-3.jpg" alt="Fotografía de la quinceañera 2" />
+          </figure>
+          <figure class="carousel-slide">
+            <img src="img/foto-4.jpg" alt="Fotografía de la quinceañera 3" />
+          </figure>
+        </div>
+
+        <button class="carousel-button previous" id="prevSlide" type="button" aria-label="Fotografía anterior">‹</button>
+        <button class="carousel-button next" id="nextSlide" type="button" aria-label="Fotografía siguiente">›</button>
+
+        <div class="carousel-dots" id="carouselDots" aria-label="Seleccionar fotografía"></div>
+      </div>
+    </section>
+
+    <section class="timeline-section section textured" id="itinerario">
+      <div class="section-inner">
+        <p class="eyebrow reveal">ITINERARIO DE LA NOCHE</p>
+        <h2 class="script title-script reveal">Cada momento cuenta</h2>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <time>17:45</time>
+            <span class="timeline-dot"></span>
+            <div>
+              <b>Recepción de invitados</b>
+              <p>Te esperamos para comenzar juntos.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <time>18:00</time>
+            <span class="timeline-dot"></span>
+            <div>
+              <b>Misa de agradecimiento</b>
+              <p>Un momento de fe y gratitud.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <time>20:00</time>
+            <span class="timeline-dot"></span>
+            <div>
+              <b>Ingreso y brindis</b>
+              <p>Bienvenida oficial a la celebración.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <time>21:00</time>
+            <span class="timeline-dot"></span>
+            <div>
+              <b>Vals y sesión de fotos</b>
+              <p>Sonríe, celebra y guarda el recuerdo.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <time>22:00</time>
+            <span class="timeline-dot"></span>
+            <div>
+              <b>Fiesta</b>
+              <p>La pista se enciende hasta el final.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="dress-code section" id="vestimenta">
+      <div class="dress-photo photo-frame">
+        <img src="img/foto-5.jpg" alt="Fotografía elegante de la quinceañera" />
+        <div class="image-overlay soft"></div>
+      </div>
+
+      <div class="dress-content section-inner">
+        <p class="eyebrow reveal">CÓDIGO DE VESTIMENTA</p>
+        <h2 class="script title-script reveal">Elegante</h2>
+        <p class="reveal">Tu mejor atuendo será parte de la magia de esta noche.</p>
+
+        <div class="dress-icons reveal" aria-hidden="true">
+          <span>♠</span><span>♛</span>
+        </div>
+
+        <div class="reserved-color reveal">
+          <p>Color reservado para la quinceañera</p>
+          <div class="reserved-swatch">
+            <span></span><b>Azul cielo</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gifts section textured" id="regalos">
+      <div class="section-inner narrow">
+        <div class="gift-icon reveal" aria-hidden="true">🎁</div>
+        <p class="eyebrow reveal">SUGERENCIA DE REGALOS</p>
+        <h2 class="script title-script reveal">Tu presencia es mi mejor regalo</h2>
+        <p class="lead small reveal">
+          Pero si deseas tener un detalle conmigo, puedes hacerlo mediante un sobre o transferencia.
+          Gracias por acompañarme en este día inolvidable.
+        </p>
+
+        <button class="button primary reveal" id="bankButton" type="button">VER DATOS BANCARIOS</button>
+
+        <div class="bank-panel" id="bankPanel" aria-hidden="true">
+          <span>BANCO</span>
+          <strong data-field="banco">Banco Nacional</strong>
+          <span>TITULAR</span>
+          <strong data-field="titular">Mariana López</strong>
+          <span>NÚMERO DE CUENTA</span>
+          <strong data-field="cuenta">0000-0000-0000</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="countdown-section section">
+      <div class="countdown-image photo-frame">
+        <img src="img/foto-6.jpg" alt="Fotografía de celebración" />
+        <div class="image-overlay dark"></div>
+      </div>
+
+      <div class="countdown-content">
+        <p class="eyebrow light reveal">FALTA MUY POCO PARA</p>
+        <h2 class="script title-script light reveal">El gran día</h2>
+
+        <div class="countdown reveal" id="countdown" aria-label="Cuenta regresiva">
+          <div><strong id="days">00</strong><span>DÍAS</span></div>
+          <i>:</i>
+          <div><strong id="hours">00</strong><span>HORAS</span></div>
+          <i>:</i>
+          <div><strong id="minutes">00</strong><span>MINUTOS</span></div>
+          <i>:</i>
+          <div><strong id="seconds">00</strong><span>SEGUNDOS</span></div>
+        </div>
+
+        <p class="countdown-date reveal" data-field="fechaLarga">SÁBADO · 14 DE NOVIEMBRE · 2026</p>
+      </div>
+    </section>
+
+    <section class="calendar-section section textured">
+      <div class="section-inner narrow">
+        <p class="eyebrow reveal">RESERVA LA FECHA</p>
+        <h2 class="script title-script reveal" data-field="mesAnio">Noviembre 2026</h2>
+        <div class="calendar reveal" id="calendar"></div>
+        <button class="button outline reveal" id="calendarButton" type="button">AGREGAR A MI CALENDARIO</button>
+      </div>
+    </section>
+
+    <section class="rsvp section" id="confirmacion">
+      <div class="section-inner">
+        <p class="eyebrow reveal">CONFIRMA TU ASISTENCIA</p>
+        <h2 class="script title-script reveal">¿Celebramos juntos?</h2>
+        <p class="rsvp-copy reveal">Por favor, confirma hasta el <span data-field="fechaLimite">31 de octubre de 2026</span>.</p>
+
+        <form class="rsvp-form reveal" id="rsvpForm">
+          <label>
+            <span>Nombre y apellido</span>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" required />
+          </label>
+
+          <div class="form-row">
+            <label>
+              <span>¿Asistirás?</span>
+              <select name="asistencia" required>
+                <option value="">Selecciona</option>
+                <option value="Sí, asistiré">Sí, asistiré</option>
+                <option value="No podré asistir">No podré asistir</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Número de invitados</span>
+              <input type="number" name="invitados" min="1" max="10" value="1" required />
+            </label>
+          </div>
+
+          <label>
+            <span>Mensaje especial</span>
+            <textarea name="mensaje" rows="3" placeholder="Escribe unas palabras..."></textarea>
+          </label>
+
+          <button class="button primary full" type="submit">CONFIRMAR ASISTENCIA</button>
+        </form>
+
+        <div class="confirmation-card" id="confirmationCard" aria-hidden="true">
+          <span class="confirmation-check">✓</span>
+          <h3 class="script">¡Asistencia registrada!</h3>
+          <p>Gracias por confirmar. Te esperamos para compartir una noche inolvidable.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer section">
+      <div class="footer-flower" aria-hidden="true"></div>
+      <p class="script" data-field="nombre">Valentina</p>
+      <span>Mis XV Años</span>
+      <div class="ornament light"><i></i><b>✦</b><i></i></div>
+      <small>Hecho con amor para una noche única.</small>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

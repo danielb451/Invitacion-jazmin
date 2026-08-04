@@ -1,0 +1,56 @@
+INVITACIÓN DIGITAL DE XV AÑOS
+=============================
+
+ARCHIVOS PRINCIPALES
+- index.html
+- styles.css
+- script.js
+
+PERSONALIZAR DATOS
+1. Abre script.js.
+2. Edita el bloque "const INVITACION" al inicio.
+3. Allí puedes cambiar:
+   - Nombre
+   - Fecha
+   - Padres
+   - Lugares y horarios
+   - Enlaces de Google Maps
+   - Datos bancarios
+   - Número de WhatsApp
+
+IMÁGENES
+Reemplaza los archivos dentro de la carpeta img manteniendo exactamente estos nombres:
+- portada.jpg
+- foto-1.jpg
+- foto-2.jpg
+- foto-3.jpg
+- foto-4.jpg
+- foto-5.jpg
+- foto-6.jpg
+
+Sugerencia:
+- Formato vertical.
+- Resolución aproximada: 1080 x 1400 px.
+- Evita imágenes muy pesadas; entre 200 KB y 800 KB es ideal.
+
+MÚSICA
+1. Crea o consigue una canción en MP3.
+2. Colócala dentro de la carpeta audio.
+3. Debe llamarse exactamente: musica.mp3
+
+ABRIR LA INVITACIÓN
+Haz doble clic en index.html.
+
+PUBLICAR EN GITHUB PAGES
+1. Sube todos los archivos y carpetas al repositorio.
+2. En GitHub: Settings > Pages.
+3. En "Build and deployment" selecciona "Deploy from a branch".
+4. Selecciona la rama main y la carpeta /root.
+5. Guarda y espera a que aparezca tu enlace.
+
+PALETA UTILIZADA
+- Navy: #2F4156
+- Teal: #567C8D
+- Sky Blue: #C8D9E6
+- Beige: #F5EFEB
+- White: #FFFFFF
