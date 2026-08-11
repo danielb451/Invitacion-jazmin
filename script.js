@@ -4,22 +4,22 @@
    ========================================================= */
 const INVITACION = {
   nombre: "Jazmin",
-  fechaEvento: "2026-11-14T18:00:00-04:00",
-  fechaLarga: "SÁBADO · 14 DE NOVIEMBRE · 2026",
-  mesAnio: "Septiembre 2026",
-  fechaLimite: "31 de octubre de 2026",
+  fechaEvento: "2026-08-29T18:00:00-04:00",
+  fechaLarga: "SÁBADO · 29 DE AGOSTO · 2026",
+  mesAnio: "Agosto 2026",
+  fechaLimite: "20 de agosto de 2026",
 
-  padres: "Heydi Laim & por Confirmar xd",
+  padres: "Heydi Laime",
 
   horaMisa: "18:00",
   lugarMisa: "Parroquia Sagrado Corazón",
   direccionMisa: "Av. Principal, Cochabamba",
   mapaMisa: "",
 
-  horaRecepcion: "20:00",
-  lugarRecepcion: "Salón Jardines del Lago",
+  horaRecepcion: "19:00",
+  lugarRecepcion: "Salón Sidrus",
   direccionRecepcion: "Zona Norte, Cochabamba",
-  mapaRecepcion: "",
+  mapaRecepcion: "https://maps.app.goo.gl/bmxQZa3TgBHtT8Ys5",
 
   banco: "Banco Nacional",
   titular: "Mariana López",
