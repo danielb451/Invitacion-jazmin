@@ -9,21 +9,21 @@ const INVITACION = {
   mesAnio: "Agosto 2026",
   fechaLimite: "20 de agosto de 2026",
 
-  padres: "Heydi Laime",
+  padres: "Heidi Laime",
 
   horaMisa: "18:00",
-  lugarMisa: "Parroquia Sagrado Corazón",
-  direccionMisa: "Av. Principal, Cochabamba",
-  mapaMisa: "",
+  lugarMisa: "Parroquia Santa Ana",
+  direccionMisa: "Cala Cala, Cochabamba",
+  mapaMisa: "https://maps.app.goo.gl/MBE8AYTk4HMgbbGf6",
 
   horaRecepcion: "19:00",
   lugarRecepcion: "Salón Sidrus",
   direccionRecepcion: "Zona Norte, Cochabamba",
   mapaRecepcion: "https://maps.app.goo.gl/bmxQZa3TgBHtT8Ys5",
 
-  banco: "Banco Nacional",
-  titular: "Mariana López",
-  cuenta: "0000-0000-0000",
+  banco: "Banco Nacional de Bolivia",
+  titular: "Heidi Laime Cespedes",
+  cuenta: "3502309187",
 
   // Escribe el número con código de país y sin el símbolo +.
   // Ejemplo Bolivia: 59170000000. Déjalo vacío para confirmar dentro de la página.
