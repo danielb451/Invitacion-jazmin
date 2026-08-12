@@ -27,7 +27,7 @@ const INVITACION = {
 
   // Escribe el número con código de país y sin el símbolo +.
   // Ejemplo Bolivia: 59170000000. Déjalo vacío para confirmar dentro de la página.
-  whatsapp: "",
+  whatsapp: "59168525493",
 
   // Datos para el calendario:
   tituloCalendario: "XV Años de Jazmin",
